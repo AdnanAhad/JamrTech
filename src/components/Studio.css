@@ -1,0 +1,24 @@
+.studio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.studio:hover {
+  transform: scale(1.2);
+}
+
+.studio > img {
+  height: 80px;
+  width: 90px;
+  border-radius: 0%;
+  box-shadow: rgb(170, 155, 155);
+}
+small {
+  color: red;
+  font-weight: 500;
+}
+.studio > span {
+  color: rgb(255, 230, 0);
+}

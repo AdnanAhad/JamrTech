@@ -1,0 +1,28 @@
+.studios {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 10px 20px;
+  /* background-color: aqua; */
+  width: auto;
+}
+
+.studios_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  cursor: pointer;
+}
+.studios_head:hover {
+  background-color: rgb(240, 233, 233);
+}
+
+.studios_body {
+  display: flex;
+  overflow: auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}

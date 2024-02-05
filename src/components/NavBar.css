@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(238, 238, 238);
+  height: 50px;
+  min-width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_item {
+  margin: 0 20px;
+  cursor: pointer;
+}
+.menu_item:hover {
+  color: rgb(64, 64, 73);
+}
+.navbar > img {
+  height: 50px;
+  width: 100px;
+}
